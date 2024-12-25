@@ -1,0 +1,87 @@
+.home-details-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #e6f3ff; /* Light blue background */
+  }
+  
+  .home-details-left {
+    flex: 2;
+    padding: 20px;
+    display: flex; /* ใช้ Flexbox */
+    flex-direction: column; /* จัดวางเนื้อหาในแนวตั้ง */
+    align-items: center; /* จัดให้อยู่กึ่งกลางในแนวนอน */
+    justify-content: center; /* จัดให้อยู่กึ่งกลางในแนวตั้ง */
+    text-align: center; /* จัดข้อความให้อยู่ตรงกลาง */
+  }
+  
+  .home-details-left img {
+    max-width: 100%; /* ป้องกันรูปภาพใหญ่เกินไป */
+    height: auto; /* รักษาอัตราส่วนของรูปภาพ */
+    margin-top: 20px; /* ระยะห่างระหว่างรูปภาพและเนื้อหาอื่น */
+  }  
+  
+  .title {
+    font-size: 1.8rem;
+    color: #003366; /* Dark blue color */
+    margin-bottom: 15px;
+  }
+  
+  .description {
+    font-size: 1rem;
+    color: #333; /* Dark text */
+    line-height: 1.5;
+    margin-bottom: 10px;
+  }
+  
+  .btn-details {
+    background-color: #007bff; /* Blue button */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .btn-details:hover {
+    background-color: #0056b3;
+  }
+  
+  .home-details-right {
+    flex: 1;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .popular-title {
+    font-size: 1.5rem;
+    color: #003366;
+    margin-bottom: 10px;
+  }
+  
+  .popular-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .popular-list li {
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 8px;
+    padding-left: 15px;
+    position: relative;
+  }
+  
+  .popular-list li::before {
+    content: "•";
+    color: #007bff;
+    position: absolute;
+    left: 0;
+    font-size: 1.2rem;
+  }
+  
